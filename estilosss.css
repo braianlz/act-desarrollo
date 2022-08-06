@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(assets/azul.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center
+    
+    
+}
+img{
+    float: left;
+
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(25, 106, 212);
+    color: white;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#general{
+    margin: auto;
+    margin-top: 50px;
+    width: 900px;
+    height: 844px;
+    background: white;
+}
+
+div#titulo{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+}
+
+button{
+    width: 55px;
+    height: 50px;
+    background-color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: black;
+    border-color: white;
+    
+}

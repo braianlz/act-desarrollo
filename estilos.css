@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(assets/azul.jpg);
+    background-size: cover;
+}
+
+.navegacion{
+    width: 150px;
+    margin: 50px auto;
+    background: white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: white;
+    background-color: rgb(25, 106, 212);
+    transition: all .4s;    
+}
+
+.submenu{
+    position: absolute;
+    background: white;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.submenu li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+
+}
